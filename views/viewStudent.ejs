@@ -1,13 +1,8 @@
-<html>
+<% include partials/header.ejs %>
 
-<body>
   First name :
   <%= first_name %>
 
     Photo :
     <img src='/uploads/<%= photo_url %>' alt='photo' />
-
-
-</body>
-
-</html>
+    <% include partials/footer.ejs %>

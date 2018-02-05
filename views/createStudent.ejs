@@ -1,6 +1,5 @@
-<html>
+<% include partials/header.ejs %>
 
-<body>
   <form action='/students/new' method='POST' enctype="multipart/form-data">
 
     <input type='text' placeholder='First name' name='first_name' />
@@ -10,6 +9,5 @@
 
     <button type='submit'>Submit</button>
   </form>
-</body>
 
-</html>
+  <% include partials/footer.ejs %>
