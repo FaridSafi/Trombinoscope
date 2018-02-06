@@ -8,7 +8,7 @@ var upload = multer({ dest: 'public/uploads/' });
 
 app.use(express.static("public"));
 
-var idCounter = 0;
+var idCounter = 1;
 var students = [];
 
 app.get('/', function (req, res) {
